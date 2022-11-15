@@ -1,3 +1,60 @@
-p {
-  font-family: Lato;
+* {
+  box-sizing: border-box;
+}
+.menu {
+  text-align: center;
+  color: pink;
+  padding: 10px;
+}
+.timer,
+#h2 {
+  font-size: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+.timer {
+  margin-left: 15px;
+}
+#h2 {
+  margin-right: 15px;
+}
+
+table {
+  padding: 5px;
+  overflow-x: auto;
+  width: 100%;
+  text-align: center;
+  min-width: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+th {
+  background-color: pink;
+  padding: 5px;
+  border: 5px solid #fff;
+}
+tr {
+  background-color: pink;
+}
+tr:nth-child(odd) {
+  background-color: pink;
+}
+td {
+  padding: 5px;
+  border: 5px solid #fff;
+}
+
+input {
+  background-color: pink;
+  border: 0;
+  padding: 3px;
+  width: 100%;
+  max-width: 500px;
+  min-width: 200px;
+  margin: 5px;
 }
